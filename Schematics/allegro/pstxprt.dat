@@ -1,0 +1,582 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 24.1.0 d001Dec-05-2024 at 11:16:22 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='P1_VOICU_CATALIN';
+ POST_TIME='Sep  4 2024 20:54:11';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ D2 '1N4148_5_DIOC2012X95N_D1N4148':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315654@P1_VOICU_CATALIN.1N4148_5.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315654@p1_voicu_catalin.\1n4148_5.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315654@p1_voicu_catalin.\1n4148_5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(490,100)',
+ SECTION='';
+
+PART_NAME
+ D4 'BZX84-C10_3_SOT95P230X110-3N_BZX84-C10':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316536@P1_VOICU_CATALIN.BZX84-C10_3.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316536@p1_voicu_catalin.\bzx84-c10_3.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316536@p1_voicu_catalin.\bzx84-c10_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(150,440)',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_SMR2512_CON2':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS322462@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins322462@connector.\con2.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins322462@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(10,30)',
+ SECTION='';
+
+PART_NAME
+ J2 'CON2_SMR2512_CON2':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS322568@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins322568@connector.\con2.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins322568@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(920,30)',
+ SECTION='';
+
+PART_NAME
+ LED1 'LED_3_DIOM2012X160M_5V,LED,LED':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315498@P1_VOICU_CATALIN.LED_3.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315498@p1_voicu_catalin.\led_3.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315498@p1_voicu_catalin.\led_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(80,40)',
+ SECTION='';
+
+PART_NAME
+ LED2 'LED_3_DIOM2012X160M_5V,LED,LED':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316284@P1_VOICU_CATALIN.LED_3.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316284@p1_voicu_catalin.\led_3.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316284@p1_voicu_catalin.\led_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(910,320)',
+ SECTION='';
+
+PART_NAME
+ P1 'POT_3314G-1-102E_5K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316042@BREAKOUT.POT.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316042@breakout.\pot.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316042@breakout.\pot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(820,240)',
+ SECTION='';
+
+PART_NAME
+ P2 'POT_3314G-1-102E_10K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316702@BREAKOUT.POT.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316702@breakout.\pot.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316702@breakout.\pot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(600,520)',
+ SECTION='';
+
+PART_NAME
+ Q1 'QMJD31C_7_TO229P990X238-4N_QMJD31C':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315428@P1_VOICU_CATALIN.QMJD31C_7.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315428@p1_voicu_catalin.\qmjd31c_7.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315428@p1_voicu_catalin.\qmjd31c_7.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(610,30)',
+ SECTION='';
+
+PART_NAME
+ Q2 'QBC846B_0_SOT95P230X110-3N_QBC846B':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315564@P1_VOICU_CATALIN.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315564@p1_voicu_catalin.\qbc846b_0.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315564@p1_voicu_catalin.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(780,80)',
+ SECTION='';
+
+PART_NAME
+ Q3 'QBC856B_0_SOT95P230X110-3N_QBC856B':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315746@P1_VOICU_CATALIN.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315746@p1_voicu_catalin.\qbc856b_0.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315746@p1_voicu_catalin.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(220,130)',
+ SECTION='';
+
+PART_NAME
+ Q4 'QBC856B_0_SOT95P230X110-3N_QBC856B':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315772@P1_VOICU_CATALIN.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315772@p1_voicu_catalin.\qbc856b_0.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315772@p1_voicu_catalin.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(360,130)',
+ SECTION='';
+
+PART_NAME
+ Q5 'QBC856B_0_SOT95P230X110-3N_QBC856B':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315910@P1_VOICU_CATALIN.QBC856B_0.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315910@p1_voicu_catalin.\qbc856b_0.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315910@p1_voicu_catalin.\qbc856b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(480,200)',
+ SECTION='';
+
+PART_NAME
+ Q6 'QBC846B_0_SOT95P230X110-3N_QBC846B':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315990@P1_VOICU_CATALIN.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315990@p1_voicu_catalin.\qbc846b_0.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315990@p1_voicu_catalin.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(200,240)',
+ SECTION='';
+
+PART_NAME
+ Q7 'QBC846B_0_SOT95P230X110-3N_QBC846B':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316016@P1_VOICU_CATALIN.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316016@p1_voicu_catalin.\qbc846b_0.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316016@p1_voicu_catalin.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(380,240)',
+ SECTION='';
+
+PART_NAME
+ Q8 'QBC846B_0_SOT95P230X110-3N_QBC846B':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316470@P1_VOICU_CATALIN.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316470@p1_voicu_catalin.\qbc846b_0.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316470@p1_voicu_catalin.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(290,430)',
+ SECTION='';
+
+PART_NAME
+ Q9 'QBC846B_0_SOT95P230X110-3N_QBC846B':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316732@P1_VOICU_CATALIN.QBC846B_0.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316732@p1_voicu_catalin.\qbc846b_0.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316732@p1_voicu_catalin.\qbc846b_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(660,520)',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RESC2013X65N_0.47':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315340@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315340@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315340@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(700,20)',
+ SECTION='';
+
+PART_NAME
+ R10 'R_RESC2013X65N_680':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315872@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315872@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315872@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(820,170)',
+ SECTION='';
+
+PART_NAME
+ R11 'R_RESC2013X65N_820':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315964@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315964@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315964@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(80,230)',
+ SECTION='';
+
+PART_NAME
+ R12 'R_RESC2013X65N_1K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316126@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316126@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316126@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(520,280)',
+ SECTION='';
+
+PART_NAME
+ R13 'R_RESC2013X65N_1K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316146@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316146@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316146@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(580,280)',
+ SECTION='';
+
+PART_NAME
+ R14 'R_RESC2013X65N_820':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316244@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316244@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316244@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(80,320)',
+ SECTION='';
+
+PART_NAME
+ R15 'R_RESC2013X65N_820':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316264@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316264@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316264@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(550,320)',
+ SECTION='';
+
+PART_NAME
+ R16 'R_RESC2013X65N_680':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS321944@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins321944@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins321944@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(800,330)',
+ SECTION='';
+
+PART_NAME
+ R17 'R_RESC2013X65N_680':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS321962@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins321962@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins321962@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(840,330)',
+ SECTION='';
+
+PART_NAME
+ R18 'R_RESC2013X65N_47K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316320@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316320@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316320@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(460,350)',
+ SECTION='';
+
+PART_NAME
+ R19 'R_RESC2013X65N_10K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316394@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316394@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316394@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(230,380)',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RESC2013X65N_1':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315360@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315360@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315360@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(750,20)',
+ SECTION='';
+
+PART_NAME
+ R20 'R_RESC2013X65N_220':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316368@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316368@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316368@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(710,370)',
+ SECTION='';
+
+PART_NAME
+ R21 'R_RESC2013X65N_820':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316434@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316434@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316434@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(80,400)',
+ SECTION='';
+
+PART_NAME
+ R22 'R_RESC2013X65N_2.2K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316414@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316414@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316414@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(490,390)',
+ SECTION='';
+
+PART_NAME
+ R23 'R_RESC2013X65N_680':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS322002@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins322002@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins322002@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(800,420)',
+ SECTION='';
+
+PART_NAME
+ R24 'R_RESC2013X65N_680':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS322020@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins322020@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins322020@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(840,420)',
+ SECTION='';
+
+PART_NAME
+ R25 'R_RESC2013X65N_2.2K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316496@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316496@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316496@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(490,430)',
+ SECTION='';
+
+PART_NAME
+ R26 'R_RESC2013X65N_4.7K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316562@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316562@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316562@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(710,440)',
+ SECTION='';
+
+PART_NAME
+ R27 'R_RESC2013X65N_820':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316516@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316516@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316516@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(910,430)',
+ SECTION='';
+
+PART_NAME
+ R28 'R_RESC2013X65N_1K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316600@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316600@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316600@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(80,470)',
+ SECTION='';
+
+PART_NAME
+ R29 'R_RESC2013X65N_2.2K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316654@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316654@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316654@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(300,500)',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RESC2013X65N_100':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315520@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315520@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315520@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(210,60)',
+ SECTION='';
+
+PART_NAME
+ R30 'R_RESC2013X65N_820':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316630@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316630@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316630@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(910,490)',
+ SECTION='';
+
+PART_NAME
+ R31 'R_RESC2013X65N_2.7K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316682@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316682@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316682@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(490,520)',
+ SECTION='';
+
+PART_NAME
+ R32 'R_RESC2013X65N_1.5K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS322066@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins322066@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins322066@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(780,520)',
+ SECTION='';
+
+PART_NAME
+ R33 'R_RESC2013X65N_1.5K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS322084@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins322084@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins322084@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(820,520)',
+ SECTION='';
+
+PART_NAME
+ R34 'R_RESC2013X65N_1.5K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS322102@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins322102@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins322102@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(860,520)',
+ SECTION='';
+
+PART_NAME
+ R35 'R_RESC2013X65N_820':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS316784@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins316784@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins316784@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(910,540)',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RESC2013X65N_100':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315540@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315540@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315540@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(370,60)',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RESC2013X65N_820':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315694@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315694@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315694@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(80,110)',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RESC2013X65N_3.9K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315634@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315634@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315634@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(150,100)',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RESC2013X65N_3.3K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315674@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315674@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315674@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(820,100)',
+ SECTION='';
+
+PART_NAME
+ R8 'R_RESC2013X65N_820':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315832@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315832@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315832@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(80,170)',
+ SECTION='';
+
+PART_NAME
+ R9 'R_RESC2013X65N_4.7K':;
+
+SECTION_NUMBER 1
+ '@P1_VOICU_CATALIN.FINAL(SCH_1):INS315852@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@p1_voicu_catalin.final(sch_1):ins315852@analog.\r.normal\(chips)',
+ P_PATH='@p1_voicu_catalin.final(sch_1):page_ins315852@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(150,170)',
+ SECTION='';
+
+END.

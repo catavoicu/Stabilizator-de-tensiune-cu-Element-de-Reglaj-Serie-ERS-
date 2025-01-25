@@ -1,0 +1,19 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Dynamic Status Report                                      )
+(                                                                     )
+(    Drawing          : p1_voicu_catalin.brd                          )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Thu Nov 28 09:27:05 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Dynamic shapes out of date: 1 out of 1
+  Current fill mode         : SMOOTH
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+       State: Out of date  Point on shape: (1260.00 900.00)  Net: VIN

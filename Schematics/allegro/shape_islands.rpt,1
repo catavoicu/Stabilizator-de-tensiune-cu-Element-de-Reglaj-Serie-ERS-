@@ -1,0 +1,18 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : p1_voicu_catalin.brd                          )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Tue Dec  3 13:22:18 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 1
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+	Point on shape: (1260.00 900.00)  Net: VIN

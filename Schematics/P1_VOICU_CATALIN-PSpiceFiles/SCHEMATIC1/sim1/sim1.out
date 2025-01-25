@@ -1,0 +1,217 @@
+
+**** 11/06/24 12:15:35 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\P1_VOICU_CATALIN-PSpiceFil
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/cadence/orcadx_24.1/tools/capture/library/p1/bc846b.lib" 
+.LIB "c:/cadence/orcadx_24.1/tools/capture/library/p1/bc856b.lib" 
+.LIB "c:/cadence/orcadx_24.1/tools/capture/library/p1/bzx84c10.lib" 
+.LIB "c:/cadence/orcadx_24.1/tools/capture/library/p1/mjd31cg.lib" 
+.LIB "c:/cadence/orcadx_24.1/tools/capture/library/p1/opto.lib" 
+* From [PSPICE NETLIST] section of C:\Users\catav\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source P1_VOICU_CATALIN
+R_R1         0 N00163  4.7k TC=0,0 
+D_D1         N00202 N00163 MLED81
+V_V1         N00202 0 56Vdc
+R_R2         N00441 N00202  8.2k TC=0,0 
+Q_Q1         N00474 N00765 N00421 QBC856B 
+R_R3         N00421 N00202  100 TC=0,0 
+Q_Q2         N00474 N00441 N00917 QBC846B 
+D_D2         0 N00441 BZX84-C10 
+R_R4         N00734 N00202  100 TC=0,0 
+Q_Q3         N00765 N00765 N00734 QBC856B 
+Q_Q4         N00765 N01708 N00917 QBC846B 
+R_R5         N01019 N00441  10k TC=0,0 
+Q_Q5         N00917 N01019 N01130 QBC846B 
+R_R6         0 N01130  2.2k TC=0,0 
+R_R7         N00441 N01607  47k TC=0,0 
+Q_Q6         N00202 N01373 N02040 QMJD31C 
+Q_Q7         N01539 N00474 N00202 QBC856B 
+R_R8         0 N01539  6.8k TC=0,0 
+R_R9         N01373 N01539  2k TC=0,0 
+R_R10         N02040 N02050  0.47 TC=0,0 
+R_R11         N02050 N02700  1 TC=0,0 
+Q_Q8         N01373 N02040 N02700 QBC846B 
+R_R12         N02711 N02700  3.3k TC=0,0 
+R_R13         N05218 N02711  680 TC=0,0 
+R_R14         N03036 N03018  220 TC=0,0 
+R_R15         0 N03036  4.7k TC=0,0 
+Q_Q9         N01373 N297634 0 QBC846B 
+R_R16         0 N03838  2.7k TC=0,0 
+D_D3         N02700 N03838 MLED81
+R_R17         0 N02700  {Rload} TC=0,0 
+X_P1         N03018 N01708 N05218 POT PARAMS: SET={a} VALUE=5k
+X_P2         N01607 N297634 0 POT PARAMS: SET=0.455 VALUE=10k
+.PARAM  rload=1120 a=1
+
+**** RESUMING sim1.cir ****
+.END
+
+**** 11/06/24 12:15:35 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\P1_VOICU_CATALIN-PSpiceFil
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BZX84-C10       MLED81          
+          IS  110.880000E-18   10.000000E-09 
+           N     .92657         1.1248       
+         ISR   49.142000E-12   10.010000E-21 
+         IKF  149.75           45.752000E-15 
+          BV   10.124           5.4169       
+         IBV     .72438        10            
+          RS     .85899         1.2366       
+          TT  973.820000E-09    5.000000E-09 
+         CJO   57.292000E-12   25.000000E-12 
+          VJ     .67995          .75         
+           M     .33236          .3333       
+
+
+**** 11/06/24 12:15:35 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\P1_VOICU_CATALIN-PSpiceFil
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC846B         QBC856B         QMJD31C         
+               NPN             PNP             NPN             
+       LEVEL    1               1               1            
+          IS   18.220000E-15   20.140000E-15   90.620200E-12 
+          EG                                    1.05         
+          BF  324.4           315.3             3.418700E+03 
+          NF     .9932           .9974          1.17603      
+         VAF   82              39.15           29.2393       
+         IKF     .109            .079            .108267     
+         ISE  289.400000E-18    6.578000E-15  537.193000E-09 
+          NE    1.4             1.45            4            
+          BR    8.29            8.68          367.353        
+          NR     .9931           .9952          5            
+         VAR   17.9             9.5             1.631        
+         IKR     .09             .09            1.15207      
+         ISC    9.982000E-12   16.330000E-15    1.157540E-09 
+          NC    1.763           1.15            1.49179      
+         ISS    0               0               0            
+          RB   10              10              22.4853       
+         RBM    5               5.000000E-06    1.000000E-12 
+         IRB    5.000000E-06    5.000000E-06    2.209370E-03 
+          RE     .649            .663         100.000000E-06 
+          RC     .7014           .718            .138633     
+         CJE   12.440000E-12   11.350000E-12  373.889000E-12 
+         VJE     .7579           .7071           .67672      
+         MJE     .3656           .3808           .575056     
+         CJC    3.347000E-12    6.395000E-12  352.510000E-12 
+         VJC     .5463           .4951           .884306     
+         MJC     .391            .44             .473486     
+        XCJC     .6193           .6288           .1          
+         CJS    0               0               0            
+         VJS     .75             .75             .75         
+         MJS     .333            .333            .5          
+          FC     .979            .9059           .8          
+          TF  490.800000E-12  654.600000E-12   10.000000E-09 
+         XTF    9.51            5.387           3.4926       
+         VTF    2.927           6.245          12.6615       
+         ITF     .3131           .2108           .052395     
+          TR   90.000000E-09   55.000000E-09    3.298030E-06 
+         XTB                                  999.997000E-15 
+         XTI                                    1.000000E-12 
+          KF    0               0               0            
+          AF    1               1               1            
+          CN    2.42            2.2             2.42         
+           D     .87             .52             .87         
+
+
+**** 11/06/24 12:15:35 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\P1_VOICU_CATALIN-PSpiceFil
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00163)   54.8150 (N00202)   56.0000 (N00421)   55.7960 (N00441)   10.0020     
+
+(N00474)   55.2770 (N00734)   55.7960 (N00765)   55.1380 (N00917)    9.3567     
+
+(N01019)    9.8511 (N01130)    9.1743 (N01373)   28.9480 (N01539)   48.8260     
+
+(N01607)    1.6622 (N01708)   10.0010 (N02040)   28.3490 (N02050)   28.3320     
+
+(N02700)   28.2940 (N02711)   21.5720 (N03018)   10.0010 (N03036)    9.5542     
+
+(N03838)   27.1200 (N05218)   20.1870 (N297634)     .6951                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -7.570E-02
+
+    TOTAL POWER DISSIPATION   4.24E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/06/24 12:15:35 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\P1_VOICU_CATALIN-PSpiceFil
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

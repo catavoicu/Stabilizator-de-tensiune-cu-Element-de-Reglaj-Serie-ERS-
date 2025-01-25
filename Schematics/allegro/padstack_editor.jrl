@@ -1,0 +1,8 @@
+\t (00:00:00) padstack_editor 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sat Dec 14 17:23:24 2024
+\t (00:00:00)         Host=LAPTOP_CATALIN User=catav Pid=20640 CPUs=12
+\t (00:00:00) CmdLine= padstack_editor -mpssession catav -file C:/Users/catav/AppData/Local/Temp/#Taaaaao07448.tmp -pname R105_60 -data C:/Users/catav/AppData/Local/Temp/#Taaaaar07448.tmp
+\t (00:00:00) 
+\d (00:00:13) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:05:25) QtSignal MainWindow Exit triggered
+\t (00:05:25)     Journal end - Sat Dec 14 17:28:49 2024

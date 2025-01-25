@@ -1,0 +1,56 @@
+\t (00:00:02) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sat Dec 14 15:47:37 2024
+\t (00:00:02)         Host=LAPTOP_CATALIN User=catav Pid=7448 CPUs=12
+\t (00:00:02) CmdLine= c:\cadence\orcadx_24.1\tools\bin\allegro.exe C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\allegro\p1_voicu_catalin.brd
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "p1_voicu_catalin"
+\d (00:00:05) Design opened: C:/Users/catav/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1/allegro/p1_voicu_catalin.brd
+\t (00:00:06) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:00:06) trapsize 1388
+\i (00:00:06) trapsize 1438
+\i (00:00:06) trapsize 1388
+\t (00:00:06) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:00:06) trapsize 1113
+\i (00:00:06) trapsize 1113
+\t (00:00:06) > Sending response DoneOpenBoard
+\i (00:00:06) updateport CVPane
+\i (00:00:06) shapeedit 
+\i (01:33:35) padeditdb 
+\t (01:33:35) [17:21:10.201000] Periodic Lic check successful
+[17:21:10.201000] Feature usage summary:
+[17:21:10.201000] OrCAD_X_PCB_Professional_Plus
+[17:21:10.201000] OrCAD_X_Professional_Plus
+
+\i (01:33:36) zoom in 1 
+\i (01:33:36) setwindow pcb
+\i (01:33:36) zoom in 437.32 1310.65
+\i (01:33:36) trapsize 556
+\i (01:33:36) zoom in 1 
+\i (01:33:36) setwindow pcb
+\i (01:33:36) zoom in 437.32 1309.53
+\i (01:33:36) trapsize 278
+\i (01:33:37) pick grid 290.46 1251.69
+\t (01:33:37) last pick:  290.00 1250.00
+\i (01:33:38) setwindow form.mini
+\i (01:33:38) FORM mini pad_stack_edit  
+\i (01:35:48) setwindow pcb
+\i (01:35:48) pick grid 431.20 1250.02
+\t (01:35:48) last pick:  430.00 1250.00
+\i (01:35:49) setwindow form.mini
+\i (01:35:49) FORM mini pad_stack_edit  
+\i (02:46:59) setwindow pcb
+\i (02:46:59) exit 
+\t (02:46:59) [18:34:33.058712] Periodic Lic check successful
+[18:34:33.583000] Feature usage summary:
+[18:34:33.583000] OrCAD_X_PCB_Professional_Plus
+[18:34:33.583000] OrCAD_X_Professional_Plus
+
+\t (02:46:59) Lic Summary:
+[18:34:33.160712] Cdslmd servers:C:\Users\catav\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[18:34:33.691000] Feature usage summary:
+[18:34:33.691000] OrCAD_X_PCB_Professional_Plus
+[18:34:33.691000] OrCAD_X_Professional_Plus
+
+\t (02:46:59)     Journal end - Sat Dec 14 18:34:33 2024

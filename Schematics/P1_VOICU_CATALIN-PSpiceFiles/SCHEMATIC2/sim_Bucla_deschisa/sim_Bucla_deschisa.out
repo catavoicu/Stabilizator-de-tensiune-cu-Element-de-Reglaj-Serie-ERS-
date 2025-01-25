@@ -1,0 +1,260 @@
+
+**** 11/17/24 16:46:57 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC2-sim_Bucla_deschisa"  [ C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\p1_voicu_cat
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim_Bucla_deschisa.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/cadence/orcadx_24.1/tools/capture/library/p1/bc846b.lib" 
+.LIB "c:/cadence/orcadx_24.1/tools/capture/library/p1/bc856b.lib" 
+.LIB "c:/cadence/orcadx_24.1/tools/capture/library/p1/bzx84c10.lib" 
+.LIB "c:/cadence/orcadx_24.1/tools/capture/library/p1/mjd31cg.lib" 
+* From [PSPICE NETLIST] section of C:\Users\catav\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 10 100k
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC2.net" 
+
+
+
+**** INCLUDING SCHEMATIC2.net ****
+* source P1_VOICU_CATALIN
+V_V1         N310961 0 56Vdc
+Q_Q9         N311141 N312309 0 QBC846B 
+R_R10         N311035 N311047  0.47 TC=0,0 
+R_R25         0 N312297  820  
+R_R27         N3119611 N311537  2.2k  
+R_R6         0 N312121  2.2k TC=0,0 
+X_P1         N311673 N312596 N311489 POT PARAMS: SET={a} VALUE=5k
+Q_Q7         N311537 N311377 N310961 QBC856B 
+X_D3         N311053 N311927 LED PARAMS: IS=5.6404e-29 RS=2  BV=5 IBV=10e-6    
++      
+X_D1         N310961 N311171 LED PARAMS: IS=5.6404e-29 RS=2  BV=5 IBV=10e-6    
++      
+R_R24         N312297 N312133  820  
+Q_Q3         N311363 N311363 N311203 QBC856B 
+R_R29         N311459 N311293  4.7k  
+R_R26         N312127 N3119611  2.2k  
+R_R5         N311999 N311459  10k TC=0,0 
+R_R18         N311357 N311171  820  
+Q_Q2         N311377 N311459 N311665 QBC846B 
+R_R20         N311639 N311453  820  
+R_R4         N311203 N310961  100 TC=0,0 
+Q_Q4         N311363 N312600 N311665 QBC846B 
+Q_Q1         N311377 N311363 N311197 QBC856B 
+R_R11         N311047 N311053  1 TC=0,0 
+R_R2         N311293 N310961  3.9k TC=0,0 
+Q_Q5         N311665 N311999 N312121 QBC846B 
+Q_Q6         N310961 N311141 N311035 QMJD31C 
+R_R17         0 N311053  {Rload} TC=0,0 
+R_R14         N311993 N311673  220 TC=0,0 
+R_R15         0 N311993  4.7k TC=0,0 
+R_R13         N311489 N311351  680 TC=0,0 
+D_D2         0 N311459 BZX84-C10 
+R_R23         0 N312003  1k  
+R_R22         N312003 N311853  820  
+Q_Q8         N311141 N311035 N311053 QBC846B 
+R_R8         0 N312127  2.7k TC=0,0 
+R_R28         N311537 N311729  1k  
+R_R7         N311459 N311897  47k TC=0,0 
+R_R3         N311197 N310961  100 TC=0,0 
+R_R9         N311141 N311733  1k TC=0,0 
+R_R30         N311729 N311733  820  
+R_R19         N311453 N311357  820  
+R_R16         N312133 N311927  820 TC=0,0 
+X_P2         N311897 N312309 0 POT PARAMS: SET=0.356 VALUE=10k
+R_R21         N311853 N311639  820  
+R_R12         N311351 N311053  3.3k TC=0,0 
+L_L1         N312600 N312596  0.1  TC=0,0 
+C_C1         N312819 N312600  0.1  TC=0,0 
+V_V2         N312819 0 DC 0Vdc AC 1Vac 
+.PARAM  rload=1120 a=1
+
+**** RESUMING sim_Bucla_deschisa.cir ****
+.END
+
+**** 11/17/24 16:46:57 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC2-sim_Bucla_deschisa"  [ C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\p1_voicu_cat
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BZX84-C10       X_D3.model201   X_D1.model201   
+          IS  110.880000E-18   56.404000E-30   56.404000E-30 
+           N     .92657         2               2            
+         ISR   49.142000E-12                                 
+         IKF  149.75                                         
+          BV   10.124           5               5            
+         IBV     .72438        10.000000E-06   10.000000E-06 
+          RS     .85899         2               2            
+          TT  973.820000E-09                                 
+         CJO   57.292000E-12                                 
+          VJ     .67995                                      
+           M     .33236                                      
+
+
+**** 11/17/24 16:46:57 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC2-sim_Bucla_deschisa"  [ C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\p1_voicu_cat
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC846B         QBC856B         QMJD31C         
+               NPN             PNP             NPN             
+       LEVEL    1               1               1            
+          IS   18.220000E-15   20.140000E-15   90.620200E-12 
+          EG                                    1.05         
+          BF  324.4           315.3             3.418700E+03 
+          NF     .9932           .9974          1.17603      
+         VAF   82              39.15           29.2393       
+         IKF     .109            .079            .108267     
+         ISE  289.400000E-18    6.578000E-15  537.193000E-09 
+          NE    1.4             1.45            4            
+          BR    8.29            8.68          367.353        
+          NR     .9931           .9952          5            
+         VAR   17.9             9.5             1.631        
+         IKR     .09             .09            1.15207      
+         ISC    9.982000E-12   16.330000E-15    1.157540E-09 
+          NC    1.763           1.15            1.49179      
+         ISS    0               0               0            
+          RB   10              10              22.4853       
+         RBM    5               5.000000E-06    1.000000E-12 
+         IRB    5.000000E-06    5.000000E-06    2.209370E-03 
+          RE     .649            .663         100.000000E-06 
+          RC     .7014           .718            .138633     
+         CJE   12.440000E-12   11.350000E-12  373.889000E-12 
+         VJE     .7579           .7071           .67672      
+         MJE     .3656           .3808           .575056     
+         CJC    3.347000E-12    6.395000E-12  352.510000E-12 
+         VJC     .5463           .4951           .884306     
+         MJC     .391            .44             .473486     
+        XCJC     .6193           .6288           .1          
+         CJS    0               0               0            
+         VJS     .75             .75             .75         
+         MJS     .333            .333            .5          
+          FC     .979            .9059           .8          
+          TF  490.800000E-12  654.600000E-12   10.000000E-09 
+         XTF    9.51            5.387           3.4926       
+         VTF    2.927           6.245          12.6615       
+         ITF     .3131           .2108           .052395     
+          TR   90.000000E-09   55.000000E-09    3.298030E-06 
+         XTB                                  999.997000E-15 
+         XTI                                    1.000000E-12 
+          KF    0               0               0            
+          AF    1               1               1            
+          CN    2.42            2.2             2.42         
+           D     .87             .52             .87         
+
+
+**** 11/17/24 16:46:57 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC2-sim_Bucla_deschisa"  [ C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\p1_voicu_cat
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N310961)   56.0000                   (N311035)   28.3470                       
+
+(N311047)   28.3300                   (N311053)   28.2920                       
+
+(N311141)   28.9470                   (N311171)   52.8510                       
+
+(N311197)   55.7930                   (N311203)   55.7930                       
+
+(N311293)   35.1400                   (N311351)   21.5700                       
+
+(N311357)   44.3530                   (N311363)   55.1350                       
+
+(N311377)   55.3280                   (N311453)   35.8560                       
+
+(N311459)   10.0010                   (N311489)   20.1850                       
+
+(N311537)   31.3830                   (N311639)   27.3580                       
+
+(N311665)    9.3556                   (N311673)   10.0010                       
+
+(N311729)   30.5190                   (N311733)   29.8110                       
+
+(N311853)   18.8610                   (N311897)    1.7497                       
+
+(N311927)   25.1440                   (N311993)    9.5534                       
+
+(N311999)    9.8498                   (N312003)   10.3630                       
+
+(N312121)    9.1729                   (N312127)   11.9350                       
+
+(N312133)   16.7630                   (N312297)    8.3814                       
+
+(N312309)     .6192                   (N312596)   10.0010                       
+
+(N312600)   10.0010                   (N312819)    0.0000                       
+
+(N3119611)   21.6590                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -6.248E-02
+    V_V2         0.000E+00
+
+    TOTAL POWER DISSIPATION   3.50E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/17/24 16:46:57 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC2-sim_Bucla_deschisa"  [ C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\p1_voicu_cat
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .14
+

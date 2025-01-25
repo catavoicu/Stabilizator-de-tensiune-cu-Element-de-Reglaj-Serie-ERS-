@@ -1,0 +1,229 @@
+(ExpressProject "P1_VOICU_CATALIN"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 P001 (4234998)  [9/4/2024]-[11/22/24]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "c:\cadence\orcadx_24.1\tools\capture\library\p1\bc846b.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\cadence\orcadx_24.1\tools\capture\library\p1\bc856b.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\cadence\orcadx_24.1\tools\capture\library\p1\bzx84c10.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\cadence\orcadx_24.1\tools\capture\library\p1\mjd31cg.lib"
+        (Type "EDIF Netlist")))
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\p1_voicu_catalin.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\BOM.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "C:\USERS\CATAV\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\DESKTOP\P1_2024_434D_VOICU_CATALIN_CONSTANTIN_SERS_N28_ORCAD\SCHEMATICS\P1_VOICU_CATALIN.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\p1_voicu_catalin-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\p1_voicu_catalin-pspicefiles\schematic2\schematic2.net"
+      (Type "Report"))
+    (Sort User)
+    (File ".\P1_VOICU_CATALIN_OUTPUT\BOM.SCH.CSV"
+      (Type "Report")
+      (DisplayName ".\P1_VOICU_CATALIN_OUTPUT\BOM.SCH.CSV"))
+    (File
+       "c:\users\catav\onedrive - universitatea politehnica bucuresti\desktop\bom.bom"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_voicu_catalin-pspicefiles\schematic1\sim.sim"
+        (DisplayName "SCHEMATIC1-sim")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_voicu_catalin-pspicefiles\schematic1\tensiune.sim"
+        (DisplayName "SCHEMATIC1-Tensiune")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_voicu_catalin-pspicefiles\schematic1\sarcina.sim"
+        (DisplayName "SCHEMATIC1-Sarcina")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_voicu_catalin-pspicefiles\schematic1\variatie_vin.sim"
+        (DisplayName "SCHEMATIC1-variatie_Vin")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_voicu_catalin-pspicefiles\schematic1\temperatura.sim"
+        (DisplayName "SCHEMATIC1-temperatura")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_voicu_catalin-pspicefiles\schematic2\sim_bucla_deschisa.sim"
+        (DisplayName "SCHEMATIC2-sim_Bucla_deschisa")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_voicu_catalin-pspicefiles\schematic1\sim2.sim"
+        (DisplayName "SCHEMATIC1-sim2")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\p1_voicu_catalin-pspicefiles\schematic1\sim.sim"))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "c:\cadence\orcadx_24.1\tools\capture\library\p1\bc846b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\orcadx_24.1\tools\capture\library\p1\bc846b.lib"))
+      (File "c:\cadence\orcadx_24.1\tools\capture\library\p1\bc856b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\orcadx_24.1\tools\capture\library\p1\bc856b.lib"))
+      (File "c:\cadence\orcadx_24.1\tools\capture\library\p1\bzx84c10.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\orcadx_24.1\tools\capture\library\p1\bzx84c10.lib"))
+      (File "c:\cadence\orcadx_24.1\tools\capture\library\p1\mjd31cg.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\orcadx_24.1\tools\capture\library\p1\mjd31cg.lib"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (MPSSessionName "catav")
+  (PartMRUSelector
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (1N4148
+      (FullPartName "1N4148.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\EDIODE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD92\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICEMODELAPP\LED\HYBRID\SUPPORTFILES\LED.OLB")
+      (DeviceIndex "0"))
+    (PARAM
+      (FullPartName "PARAM.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (MLED81
+      (FullPartName "MLED81.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\OPTO.OLB")
+      (DeviceIndex "0"))
+    (QBC846B
+      (FullPartName "QBC846B.Normal")
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\P1\BC846B.OLB")
+      (DeviceIndex "0"))
+    (QBC856B
+      (FullPartName "QBC856B.Normal")
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\P1\BC856B.OLB")
+      (DeviceIndex "0"))
+    (QMJD31C
+      (FullPartName "QMJD31C.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\P1\MJD31CG.OLB")
+      (DeviceIndex "0"))
+    (BZX84-C10
+      (FullPartName "BZX84-C10.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\P1\BZX84C10.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (Resistor
+      (FullPartName "Resistor.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\PWLCOMPS.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1_2024_434D_Voicu_Catalin_Constantin_SERS_N28_OrCa\Schematics\p1_voicu_catalin.dsn")
+      (Path "Design Resources"
+         "C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1_2024_434D_Voicu_Catalin_Constantin_SERS_N28_OrCa\Schematics\p1_voicu_catalin.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1_2024_434D_Voicu_Catalin_Constantin_SERS_N28_OrCa\Schematics\p1_voicu_catalin.dsn"
+         "SCHEMATIC2")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1_2024_434D_Voicu_Catalin_Constantin_SERS_N28_OrCa\Schematics\p1_voicu_catalin.dsn"
+         "SCHEMATIC2" "Bucla_Deschisa"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 314 0 605"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1176 24 623")
+        (Scroll "-84 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\CATAV\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\DESKTOP\P1_2024_434D_VOICU_CATALIN_CONSTANTIN_SERS_N28_ORCA\SCHEMATICS\P1_VOICU_CATALIN.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1176 24 623")
+        (Scroll "-84 0")
+        (Zoom "100"))
+      (Path
+         "C:\USERS\CATAV\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\DESKTOP\P1_2024_434D_VOICU_CATALIN_CONSTANTIN_SERS_N28_ORCA\SCHEMATICS\P1_VOICU_CATALIN.DSN")
+      (Schematic "SCHEMATIC2")
+      (Page "Bucla_Deschisa"))))

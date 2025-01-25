@@ -1,0 +1,30 @@
+\t (00:00:02) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sat Dec 14 15:16:25 2024
+\t (00:00:02)         Host=LAPTOP_CATALIN User=catav Pid=19740 CPUs=12
+\t (00:00:02) CmdLine= c:\cadence\orcadx_24.1\tools\bin\allegro.exe C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\allegro\p1_voicu_catalin.brd
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "p1_voicu_catalin"
+\d (00:00:05) Design opened: C:/Users/catav/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1/allegro/p1_voicu_catalin.brd
+\t (00:00:06) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:00:06) trapsize 1388
+\i (00:00:06) trapsize 1438
+\i (00:00:06) trapsize 1388
+\t (00:00:06) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:00:06) trapsize 1113
+\i (00:00:06) trapsize 1113
+\t (00:00:06) > Sending response DoneOpenBoard
+\i (00:00:06) updateport CVPane
+\i (00:00:06) shapeedit 
+\i (00:00:27) xrefdes Led1 
+\i (00:00:27) xname_flush 
+\i (00:00:27) trapsize 268
+\i (00:01:03) exit 
+\t (00:01:03) Lic Summary:
+[15:17:26.049712] Cdslmd servers:C:\Users\catav\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[15:17:26.580000] Feature usage summary:
+[15:17:26.580000] OrCAD_X_PCB_Professional_Plus
+[15:17:26.580000] OrCAD_X_Professional_Plus
+
+\t (00:01:03)     Journal end - Sat Dec 14 15:17:26 2024

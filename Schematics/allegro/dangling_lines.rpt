@@ -1,0 +1,47 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : p1_voicu_catalin.brd                          )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Tue Dec 10 21:31:55 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  N315456              TOP                    20.00     *(1257.40 1470.00) to  (1257.40 1490.00)
+  N315468              TOP                    20.00      (1182.60 1380.00) to *(1182.60 1360.00)
+  N315800              TOP                    20.00     *(1507.40 1270.00) to  (1507.40 1290.00)
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  VIN                  VIA_04MM             (1060.00 1310.00) TOP/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  VIN                  VIA_04MM             (1060.00 1310.00) TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       3
+  Total dangling vias:        1
+  Total antenna vias:         1

@@ -1,0 +1,91 @@
+
+**** 11/02/24 15:19:17 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\P1_VOICU_CATALIN-PSpiceFiles\
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\catav\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source P1_VOICU_CATALIN
+R_R1         0 N00163  4.7k TC=0,0 
+D_D1         N00202 N00163 MLED81
+V_V1         N00202 0 56Vdc
+R_R2         N00441 N00202  8.2k TC=0,0 
+Q_Q1         N00474 N00765 N00421 QBC856B 
+R_R3         N00421 N00202  100 TC=0,0 
+Q_Q2         N00474 N00441 N00917 QBC846B 
+D_D2         0 N00441 BZX84-C10 
+R_R4         N00734 N00202  100 TC=0,0 
+Q_Q3         N00765 N00765 N00734 QBC856B 
+Q_Q4         N00765 N01708 N00917 QBC846B 
+R_R5         N01019 N00441  10k TC=0,0 
+Q_Q5         N00917 N01019 N01130 QBC846B 
+R_R6         0 N01130  2.2k TC=0,0 
+R_R7         N00441 N01607  47k TC=0,0 
+Q_Q6         N00202 N01373 N02040 QMJD31C 
+Q_Q7         N01539 N00474 N00202 QBC856B 
+R_R8         0 N01539  6.8k TC=0,0 
+R_R9         N01373 N01539  2k TC=0,0 
+R_R10         N02040 N02050  0.47 TC=0,0 
+R_R11         N02050 N02700  1 TC=0,0 
+Q_Q8         N01373 N02040 N02700 QBC846B 
+R_R12         N02711 N02700  3.3k TC=0,0 
+R_R13         N05218 N02711  680 TC=0,0 
+R_R14         N03036 N03018  220 TC=0,0 
+R_R15         0 N03036  4.7k TC=0,0 
+Q_Q9         N01373 N04916 0 QBC846B 
+R_R16         0 N03838  2.7k TC=0,0 
+D_D3         N02700 N03838 MLED81
+R_R17         0 N02700  {Rload} TC=0,0 
+X_P1         0 N04916 N01607 POT PARAMS: SET=0.455 VALUE=10k
+X_P2         N05218 N01708 N03018 POT PARAMS: SET={a} VALUE=5k
+.PARAM  rload=1120 a=0.5
+
+**** RESUMING 1.cir ****
+.END
+
+
+ERROR(ORPSIM-15113): Model BZX84-C10 used by D_D2 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q1 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q2 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q3 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q4 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q5 is undefined
+
+ERROR(ORPSIM-15113): Model QMJD31C used by Q_Q6 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q7 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q8 is undefined
+
+ERROR(ORPSIM-15113): Model QBC846B used by Q_Q9 is undefined
+

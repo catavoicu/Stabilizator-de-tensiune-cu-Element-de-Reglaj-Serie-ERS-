@@ -1,0 +1,90 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : p1_voicu_catalin.brd                          )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Thu Dec  5 11:16:22 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\allegro'
+Design Directory:            'C:/Users/catav/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1/allegro'
+Old design name:             'C:/Users/catav/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1/allegro/p1_voicu_catalin.brd'
+New design name:             'C:/Users/catav/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1/allegro/p1_voicu_catalin.brd'
+
+CmdLine: netrev -y 1 -i C:\Users\catav\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1\allegro -q netrev_constraint_report.xml C:/Users/catav/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1/allegro/#Taaaaak12276.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read C:/Users/catav/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1/allegro/pstchip.dat 
+   Finished reading C:/Users/catav/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1/allegro/pstchip.dat (00:00:00.01)
+Starting to read C:/Users/catav/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1/allegro/pstxprt.dat 
+   Finished reading C:/Users/catav/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/Users/catav/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1/allegro/pstxnet.dat 
+   Finished reading C:/Users/catav/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/orcadx_24.1/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/orcadx_24.1/share/local/pcb/symbols 
+           c:/cadence/orcadx_24.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/orcadx_24.1/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/orcadx_24.1/share/local/pcb/padstacks 
+           c:/cadence/orcadx_24.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/orcadx_24.1/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Dec 5 11:16:22 2024
+   DESIGN NAME : 'P1_VOICU_CATALIN'
+   PACKAGING ON Sep  4 2024 20:54:11
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:24
+elapsed time  0:00:00
+

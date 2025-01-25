@@ -1,0 +1,285 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [
+		{
+			"Name" : "VOUT",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):vout",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "VIN",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):vin",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N322040",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n322040",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N321982",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n321982",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316178",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316178",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315800",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315800",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315902",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315902",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315592",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315592",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316390",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316390",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315624",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315624",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316590",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316590",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316772",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316772",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315938",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315938",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315720",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315720",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315908",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315908",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316114",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316114",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316360",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316360",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315618",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315618",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315562",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315562",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316596",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316596",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316760",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316760",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316584",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316584",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316316",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316316",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316462",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316462",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316456",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316456",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315806",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315806",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315986",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315986",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315826",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315826",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316122",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316122",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N3164241",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n3164241",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316082",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316082",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315742",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315742",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316088",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316088",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316184",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316184",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315812",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315812",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N316466",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n316466",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315468",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315468",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "N315456",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):n315456",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "18 MIL"
+		},
+		{
+			"Name" : "GND",
+			"C_PATH" : "@p1_voicu_catalin.final(sch_1):gnd",
+			"PropName" : "MIN_LINE_WIDTH",
+			"Logical" : null,
+			"Physical" : "26 MIL"
+		}
+	],
+	"Pin Property" : [],
+	"Component" : [],
+	"Net" : [],
+	"Connection" : []
+}
