@@ -53,6 +53,6 @@ Proiectul include următoarele fișiere și directoare:
 
 ## 👨‍💻 Autor
 - **Nume**: Catalin Voicu
-- Email: catavoicu01@gmail.com
+- **Email**: catavoicu01@gmail.com
 - Proiect realizat ca parte a cursului: P1.
-- Universitate: Facultatea de Electronică, Telecomunicații și Tehnologia Informației, Universitatea Politehnica București.
+- **Universitate**: Facultatea de Electronică, Telecomunicații și Tehnologia Informației, Universitatea Politehnica București.
