@@ -51,8 +51,8 @@ Proiectul include următoarele fișiere și directoare:
 2. **Design PCB**:
    https://github.com/catavoicu/Stabilizator-de-tensiune-cu-Element-de-Reglaj-Serie-ERS-/blob/main/Layout/p1_voicu_catalin.jpg
 
-
-- Nume: Catalin Voicu
+## 👨‍💻 Autor
+- **Nume**: Catalin Voicu
 - Email: catavoicu01@gmail.com
 - Proiect realizat ca parte a cursului: P1.
 - Universitate: Facultatea de Electronică, Telecomunicații și Tehnologia Informației, Universitatea Politehnica București.
