@@ -1,6 +1,6 @@
 # Stabilizator de Tensiune cu Element de Reglaj Serie (ERS)
 
-## 📜 Descrierea Proiectului
+## Descrierea Proiectului
 
 Stabilizatorul de tensiune proiectat are rolul de a furniza o tensiune constantă la ieșire, chiar dacă tensiunea de intrare sau sarcina variază. Este destinat aplicațiilor de alimentare cu curent continuu care necesită o tensiune stabilizată.
 
@@ -14,7 +14,7 @@ Stabilizatorul de tensiune proiectat are rolul de a furniza o tensiune constant�
 -Domeniul temperaturilor de funcționare: 0-60 C (verificabil prin testare în temperatură);
 
 
-## 📁 Structura Proiectului
+## Structura Proiectului
 
 Proiectul include următoarele fișiere și directoare:
 
@@ -27,7 +27,7 @@ Proiectul include următoarele fișiere și directoare:
 - `Schematics` - Schema electronică care ilustrează componentele și conexiunile circuitului.
 - `Simulations` - Verifică performanța și stabilitatea circuitului, optimizând alegerea componentelor și condițiile de operare
 
-## 🔧 Instrucțiuni pentru Utilizare
+## Instrucțiuni pentru Utilizare
 
 ### 1. **Simularea Circuitului**
 1. Deschide fișierul "P1_VOICU_CATALIN.opj" din folderul `Schematics` folosind un simulator compatibil, cum ar fi OrCAD X.
@@ -36,14 +36,14 @@ Proiectul include următoarele fișiere și directoare:
 ### 2. **Fabricarea PCB-ului**
 1. Folosește fișierele Gerber din folderul `Layout` pentru a viziona și fabrica PCB-ul.
 
-## ⚙️ Cerințe Tehnice
+## Cerințe Tehnice
 
 - **Software necesar**:
   - OrCAD 17.2 - OrCAD X pentru simulări.
   - OrCAD 17.2 - OrCAD X pentru design-ul PCB.
 
 
-## 🖼️ Capturi de Ecran și Scheme
+## Capturi de Ecran și Scheme
 
 1. **Schemă Electrică**:
   https://github.com/catavoicu/Stabilizator-de-tensiune-cu-Element-de-Reglaj-Serie-ERS-/blob/main/Schematics/Schema.jpg
@@ -51,7 +51,7 @@ Proiectul include următoarele fișiere și directoare:
 2. **Design PCB**:
    https://github.com/catavoicu/Stabilizator-de-tensiune-cu-Element-de-Reglaj-Serie-ERS-/blob/main/Layout/p1_voicu_catalin.jpg
 
-## 👨‍💻 Autor
+## Autor
 - **Nume**: Catalin Voicu
 - **Email**: catavoicu01@gmail.com
 - Proiect realizat ca parte a cursului: P1.
