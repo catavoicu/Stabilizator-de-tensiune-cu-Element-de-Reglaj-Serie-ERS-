@@ -1,58 +1,58 @@
-# Stabilizator de Tensiune cu Element de Reglaj Serie (ERS)
+# Voltage Regulator with Series Control Element (ERS)
 
-## Descrierea Proiectului
+## Project Overview
 
-Stabilizatorul de tensiune proiectat are rolul de a furniza o tensiune constantă la ieșire, chiar dacă tensiunea de intrare sau sarcina variază. Este destinat aplicațiilor de alimentare cu curent continuu care necesită o tensiune stabilizată.
+This project involves the design of a DC voltage regulator that provides a constant output voltage, even under variations in the input voltage or load conditions. It is intended for DC power supply applications that require a stable voltage level.
 
-### Caracteristici principale:
+## Key Features
 
--Tensiunea de ieșire reglabilă în intervalul: 14 - 28 [V]
--Element de reglaj serie;
--Sarcina la ieșire 1120 Ω;
--Protecție la suprasarcină prin limitarea temperaturii tranzistorului regulator serie la 1200C, și a curentului maxim la 0,5A;
--Tensiune de intrare în intervalul: 50,4 - 56 [V] 
--Domeniul temperaturilor de funcționare: 0-60 C (verificabil prin testare în temperatură);
+- Adjustable output voltage: 14 – 28 V  
+- Series control element  
+- Output load: 1120 Ω  
+- Overload protection by limiting the series regulator transistor temperature to 120°C and the maximum current to 0.5 A  
+- Input voltage range: 50.4 – 56 V  
+- Operating temperature range: 0 – 60°C (verified through thermal testing)
 
+## Project Structure
 
-## Structura Proiectului
+The project is organized into the following folders:
 
-Proiectul include următoarele fișiere și directoare:
+- `Bill_of_Materials` – Detailed list of all components required for manufacturing, including quantities, specifications, and supplier information (BOM).
+- `Data Sheets` – Technical documents providing specifications, features, performance, and recommended usage of the components.
+- `Layout` – PCB design files created using OrCAD X PCB.
+- `Proiect Docs` – Project documentation:
+  - Project report (PDF)
+  - Design formulas and calculations
+- `Schematics` – Circuit schematic showing components and connections.
+- `Simulations` – Circuit simulations used to evaluate performance and stability, as well as to optimize component selection and operating conditions.
 
-- `Bill_of_Materials` -  Listă detaliată care conține toate componentele necesare pentru fabricare, incluzând cantități, specificații și detalii despre furnizori + Lista componentelor folosite (BOM).
-- `Data Sheets` - Documentele tehnice care oferă specificații, caracteristici, performanțe și utilizări ale componentelor.
-- `Layout` - Fișierele de proiectare in OrCAD X PCB.
-- `Proiect Docs` - Documentația proiectului:
-  - **Raportul proiectului** (PDF)
-  - **Formule și calcule** utilizate pentru proiectare.
-- `Schematics` - Schema electronică care ilustrează componentele și conexiunile circuitului.
-- `Simulations` - Verifică performanța și stabilitatea circuitului, optimizând alegerea componentelor și condițiile de operare
+## Usage Instructions
 
-## Instrucțiuni pentru Utilizare
+### 1. Circuit Simulation
 
-### 1. **Simularea Circuitului**
-1. Deschide fișierul "P1_VOICU_CATALIN.opj" din folderul `Schematics` folosind un simulator compatibil, cum ar fi OrCAD X.
-2. Rulează simulările pentru a verifica funcționarea circuitului.
+1. Open the `"P1_VOICU_CATALIN.opj"` file located in the `Schematics` folder using OrCAD X or a compatible simulator.
+2. Run the simulations to verify correct circuit behavior.
 
-### 2. **Fabricarea PCB-ului**
-1. Folosește fișierele Gerber din folderul `Layout` pentru a viziona și fabrica PCB-ul.
+### 2. PCB Fabrication
 
-## Cerințe Tehnice
+1. Use the Gerber files located in the `Layout` folder to view and manufacture the printed circuit board (PCB).
 
-- **Software necesar**:
-  - OrCAD 17.2 - OrCAD X pentru simulări.
-  - OrCAD 17.2 - OrCAD X pentru design-ul PCB.
+## Technical Requirements
 
+- OrCAD 17.2 or OrCAD X for circuit simulation
+- OrCAD 17.2 or OrCAD X for PCB design
 
-## Capturi de Ecran și Scheme
+## Screenshots and Schematics
 
-1. **Schemă Electrică**:
-  https://github.com/catavoicu/Stabilizator-de-tensiune-cu-Element-de-Reglaj-Serie-ERS-/blob/main/Schematics/Schema.jpg
+- **Electronic Schematic**:  
+ https://github.com/catavoicu/Stabilizator-de-tensiune-cu-Element-de-Reglaj-Serie-ERS-/blob/main/Schematics/Schema.jpg
 
-2. **Design PCB**:
-   https://github.com/catavoicu/Stabilizator-de-tensiune-cu-Element-de-Reglaj-Serie-ERS-/blob/main/Layout/p1_voicu_catalin.jpg
+- **PCB Layout**:  
+https://github.com/catavoicu/Stabilizator-de-tensiune-cu-Element-de-Reglaj-Serie-ERS-/blob/main/Layout/p1_voicu_catalin.jpg
 
-## Autor
-- **Nume**: Catalin Voicu
-- **Email**: catavoicu01@gmail.com
-- Proiect realizat ca parte a cursului: P1.
-- **Universitate**: Facultatea de Electronică, Telecomunicații și Tehnologia Informației, Universitatea Politehnica București.
+## Author
+
+**Name**: Cătălin Voicu  
+**Email**: catavoicu01@gmail.com  
+**Course**: P1 – Faculty of Electronics, Telecommunications and Information Technology  
+**University**: Polytechnic University of Bucharest
